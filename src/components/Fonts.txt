@@ -1,0 +1,13 @@
+Fonts used in this design:
+
+Font: Roboto
+Author: Christian Robertson
+Url: http://www.fontsquirrel.com/fonts/roboto
+
+Font: Source Sans Pro
+Author: Adobe
+Url: http://www.fontsquirrel.com/fonts/source-sans-pro
+
+Font: Poppins
+Author: Indian Type Foundry
+Url: https://www.fontsquirrel.com/fonts/poppins

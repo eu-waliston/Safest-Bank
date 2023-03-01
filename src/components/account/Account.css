@@ -1,0 +1,128 @@
+.account {
+    width: 100%;
+    height: 100vh;
+}
+
+.infos__profile {
+    width: 100%;
+    height:60vh;
+    background-color:  rgb(8, 8, 88);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_pic {
+    width: 120px;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 5px;
+    position: relative;
+    top: 15%;
+}
+
+.your__name {
+    font-size: 20px;
+    top: 18%;
+}
+.your__email {
+    position: relative;
+    top: 20%;
+    color: #fff;
+    text-transform: none;
+}
+
+.balance__square {
+    position: relative;
+    text-align: center; 
+    background-color: #fff;
+    width: 70%;
+    height: 110px;
+    top: -180px;
+    margin-left: 15%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgba(0,0,0, 0.22);
+}
+
+.tranfer, .op_b, .money {
+    margin-bottom: 18px;
+}
+
+.op_b {
+    top: 5px;
+    position: relative;
+    text-transform: uppercase;
+    color: rgb(43, 84, 219);
+    font-size: 15px;
+}
+
+.money {
+    color: rgb(8, 8, 88);
+    font-size: 25px;
+}
+
+.tranfer {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(8, 8, 88);
+    text-transform: uppercase;
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -10px;
+} 
+
+/*------------------------------------*/
+.lattest {
+    position: relative;
+    top: -80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(8, 8, 88);
+    font-size: 15px;
+}
+
+.grid__trans {
+    display: flex;
+    column-gap: 25px;
+    position: relative;
+    top: -55px;
+    margin-left: 4%;
+}
+
+.movings {
+    position: relative;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.movings  h4{
+    margin-bottom: 11px;
+    font-weight: lighter;
+}
+
+.movings  h4 > i {
+    position: relative;
+    margin-right: 10px;
+    color: rgb(8, 8, 88);
+    background-color:rgb(8, 8, 88);
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 2px 2px 15px rgba(0,0,0, 0.12);
+}
+
+.moving_cash >h4 {
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.more {
+    position: relative;
+    font-size: 15px;
+    margin-left: 75%;
+    color: rgb(8, 8, 88);
+    display: block;
+    top: -25px;
+    
+}

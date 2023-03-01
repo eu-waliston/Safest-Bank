@@ -1,4 +1,5 @@
-# Bank-App
-An react mobile bank app 
+# Bank App
 
-# Projeto em construção
+A Bank modile app using reac
+
+# ! Projeto em Construção
