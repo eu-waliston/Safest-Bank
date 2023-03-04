@@ -30,12 +30,13 @@ const Account = () => {
                     </h3>
                     <div className="grid__trans">
                         <div className="movings">
-                            <h4><i class="bi bi-browser-safari"></i>Lorem Ipsun Congnaturus</h4>
-                            <h4><i class="bi bi-browser-safari"></i>Lorem Ipsun Congnaturus</h4>
-                            <h4><i class="bi bi-browser-safari"></i>Lorem Ipsun Congnaturus</h4>
-                            <h4><i class="bi bi-browser-safari"></i>Lorem Ipsun Congnaturus</h4>
-                            <h4><i class="bi bi-browser-safari"></i>Lorem Ipsun Congnaturus</h4>
-                            <h4><i class="bi bi-browser-safari"></i>Lorem Ipsun Congnaturus</h4>
+
+                            <h4> <i class="fa-solid fa-circle"></i>  Lorem Ipsun Congnaturus</h4>
+                            <h4> <i class="fa-solid fa-circle"></i>  Lorem Ipsun Congnaturus</h4>
+                            <h4> <i class="fa-solid fa-circle"></i>  Lorem Ipsun Congnaturus</h4>
+                            <h4> <i class="fa-solid fa-circle"></i>  Lorem Ipsun Congnaturus</h4>
+                            <h4> <i class="fa-solid fa-circle"></i>  Lorem Ipsun Congnaturus</h4>
+                            <h4> <i class="fa-solid fa-circle"></i>  Lorem Ipsun Congnaturus</h4>
                         </div>
 
                         <div className="moving_cash">

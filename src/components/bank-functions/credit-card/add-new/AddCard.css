@@ -1,0 +1,59 @@
+.newcard__Section {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.credit-card__new {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.form__container {
+    display: grid;
+
+    width: 80%;
+    margin-left: 10%;
+    
+}
+
+.form__container input {
+   margin-bottom: 5%;
+   margin-top: 2%;
+    
+   height: 30px;
+   border-radius: 5px;
+   border: 0.5px solid rgba(0, 0, 0, 0.452);
+   background-color: rgb(255, 255, 255);
+}
+
+
+.form__container label {
+    text-transform: uppercase;
+}
+
+.check {
+    font-size: 1rem;
+}
+
+.btn {
+    text-align: center;
+    text-align: center;
+    padding: 8px;
+    background-color: rgba(11, 11, 172, 1);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.13);
+    text-decoration: none;
+    width: 50%;
+    text-transform: capitalize;
+    margin-left: 25%;
+    margin-bottom: 80px;
+    margin-top: 8%;
+}
+
+.middle__info__new {
+    background-color: whitesmoke;
+}
