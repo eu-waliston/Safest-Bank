@@ -38,7 +38,7 @@
     background-color: #fff;
     width: 70%;
     height: 110px;
-    top: -180px;
+    top: -140px;
     margin-left: 15%;
     border-radius: 10px;
     box-shadow: 4px 4px 12px rgba(0,0,0, 0.22);
@@ -53,12 +53,14 @@
     position: relative;
     text-transform: uppercase;
     color: rgb(43, 84, 219);
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .money {
     color: rgb(8, 8, 88);
-    font-size: 25px;
+    font-size: 22px;
+    position: relative;
+    top: -10px;
 }
 
 .tranfer {
@@ -70,7 +72,7 @@
     width: 100px;
     height: 30px;
     position: relative;
-    top: -10px;
+    top: -20px;
 } 
 
 /*------------------------------------*/

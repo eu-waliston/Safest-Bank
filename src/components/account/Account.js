@@ -1,8 +1,8 @@
 import React from "react";
 import "./Account.css";
 
-import LeftMenu from "../../menus/left_menu/LeftMenu";
-import RightMenu from "../../menus/right_menu/RightMenu";
+import LeftMenu from "../menus/left_menu/LeftMenu";
+import RightMenu from "../menus/right_menu/RightMenu";
 
 const Account = () => {
     return (

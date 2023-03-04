@@ -83,5 +83,11 @@
 
 .checkboxe {
     position: relative;
-    top: 5%;
+    top: 5%; 
+    font-size: 0.8rem;
+}
+
+
+.checkboxe input {
+    margin-right: 10px;
 }
