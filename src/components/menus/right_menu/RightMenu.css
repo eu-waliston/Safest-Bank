@@ -45,3 +45,8 @@
 .nav__items-toggle {
     display: none;
 }
+
+.link_itens {
+    color: #fff;
+    text-decoration: none;
+}

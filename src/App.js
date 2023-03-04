@@ -6,7 +6,7 @@ import Home from './components/home/Home';
 import Register from './components/register/Register';
 import Account from './components/account/Account';
 
-import RightMenu from './menus/right_menu/RightMenu';
+import RightMenu from './components/menus/right_menu/RightMenu';
 
 function App() {
   return (
