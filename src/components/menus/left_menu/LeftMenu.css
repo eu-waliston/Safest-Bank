@@ -1,31 +1,42 @@
 .navbar {
-    background-color: rgb(23, 13, 196) ;
+    background-color:  #81B1CC;
     height: 100vh;
-    width: 40%;
+    width: 50%;
     position: fixed;
     z-index: 4;
+
+    transition: 0.6s;
 }
 
 .navbar-toggle {
-    background-color: rgb(23, 13, 196) ;
+    background-color: #81B1CC ;
     height: 100vh;
     width: 0;
     z-index: 9999;
     position: fixed;
+
+
+    transition: 0.6s;
 }
 
 .navbar_itens {
     display: flex;
     flex-direction: column;
-    position: relative;
-    margin-left: 10%;
+    position: absolute;
+    margin-left: 20%;
     top: 15%;
     color: #ffff;
+
+
+    transition: all 1s;
+
 
 }
 
 .navbar_itens-toggle {
-    display: none;
+    visibility: hidden;
+    color: transparent;
+ 
 }
 
 .navbar_itens>h3 {
@@ -39,12 +50,14 @@
     margin-right: 10px;
 }
 
-.bi-list {
+
+.style {
     position: fixed;
-    z-index: 999;
+    z-index: 9999999999999;
     color: #fff;
     font-size: 30px;
     top: 20px;
     left: 10px;
     cursor: pointer;
+    transition: all 0.7s;
 }

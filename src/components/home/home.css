@@ -13,9 +13,7 @@ HOME
 TOP SIDE
 */
 .top__side {
-    background: rgb(15, 9, 134);
-    background: linear-gradient(6deg, rgba(15, 9, 134, 1) 0%, rgba(11, 11, 172, 1) 41%, rgba(0, 56, 255, 1) 100%);
-
+   background-color:  #81B1CC;
     top: -91px;
     position: relative;
     width: 100%;
@@ -69,7 +67,7 @@ BOTTOM SIDE
     width: 40%;
     height: 40px;
     margin-left: 30%;
-    background-color:  rgb(23, 13, 196);
+    background-color:   #81B1CC;
     border-radius: 5px;
     border: none;
 }

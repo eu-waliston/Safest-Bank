@@ -6,7 +6,7 @@ const LeftMenu = () => {
 
     return (
         <>
-            <i class="bi bi-list" onClick={() => setNavbar(!navbar)}></i>
+            <i class={navbar ? "bi bi-list style" : "bi bi-x-lg style"} onClick={() => setNavbar(!navbar)}></i>
             <div className={navbar ? "navbar-toggle" : "navbar"  }>
                 <div className={navbar ? "navbar_itens-toggle" : "navbar_itens"}>
                     <h3><i class="nav__item bi bi-person" ></i>account</h3>
