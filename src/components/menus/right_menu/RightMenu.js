@@ -22,10 +22,14 @@ const RightMenu = () => {
                     Credit Card
                 </Link>
             </h3 >
-            <h3 className={navbarto ? "nav__items-toggle" :""}>
-                <i className="nav__items bi bi-chat-fill"></i>talk with us
+            <h3 className={navbarto ? "nav__items-toggle" : ""}>
+                <i className="nav__items bi bi-chat-fill"></i>
+                <Link className="link_itens" to={"/talk-with-us"}>
+                    talk with us
+                </Link>
+
             </h3>
-            <h3 className={navbarto ? "nav__items-toggle" :""}>
+            <h3 className={navbarto ? "nav__items-toggle" : ""}>
                 <i className="nav__items bi bi-box-arrow-right"></i>
                 <Link className="link_itens" to={"/"}>
                     log out
