@@ -26,6 +26,11 @@
     border: 0.3px solid rgba(0, 0, 0, 0.342);
 }
 
+.edit__form label {
+    color: #81B1CC;
+    font-weight: 600;
+}
+
 .finish__buttons {
     display: flex;
     justify-content: space-evenly;
