@@ -22,7 +22,7 @@ const Privacy = () => {
 
                         <p><i class="agency__icons bi bi-bank2"></i><span>Agency -</span> 0000</p>
                         <p><i class="agency__icons bi bi-bank2"></i><span>Accout Number -</span> 00000000-0</p>
-                        <p><i class="agency__icons bi bi-person-fill"></i><span>Name -</span> We Santos</p>
+                        <p><i class="agency__icons bi bi-person-fill"></i><span>Name -</span> Waliston Waliston Walis...</p>
                         <p><i class="agency__icons bi bi-geo-alt"></i><span>Address -</span> Mumbai, Maharashtra...</p>
                         <p><i class="agency__icons bi bi-telephone-fill"></i><span>Phone -</span> (+00) 0000 00 0000 </p>
                         <p><i class="agency__icons bi bi-envelope"></i><span>Email -</span> wal-wizard@xmail.com</p>
@@ -30,7 +30,13 @@ const Privacy = () => {
 
 
                     </div>
-                    <button className="edit__btn">Edit Info <i class="bi bi-pencil-fill ps"></i></button>
+
+                    <button className="edit__btn">
+                        <Link className="Link" to={"/edit-privacy-info"}>
+                            Edit Info
+                            <i class="bi bi-pencil-fill ps"></i>
+                        </Link>
+                    </button>
                 </div>
             </div>
         </>

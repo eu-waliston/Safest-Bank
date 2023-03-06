@@ -5,12 +5,12 @@
 }
 
 .top__section {
-    background-color:#81B1CC;
+    background-color: #81B1CC;
     width: 100%;
     height: 25vh;
 }
 
-.grid__icons{
+.grid__icons {
     display: flex;
     position: relative;
     top: 30%;
@@ -18,7 +18,7 @@
 }
 
 .icons_st {
-    margin-left: 30px; 
+    margin-left: 30px;
 }
 
 /*==============================*/
@@ -37,7 +37,7 @@
     align-items: center;
     align-content: center;
     position: relative;
-    top: 5%;
+    top: 15%;
     gap: 20px;
 }
 
@@ -58,10 +58,11 @@
     border: 0.5px solid #81B1CC;
 }
 
-.lk{
+.Link {
     color: #fff;
-    text-decoration: none;
+
     font-size: 0.8rem;
+    text-decoration: none;
 }
 
 .bnt_1 {
@@ -72,13 +73,13 @@
     border-radius: 5px;
 }
 
-.btn_2{
+.btn_2 {
     padding: 8px;
     text-transform: uppercase;
     margin-left: 10px;
     border-radius: 5px;
     color: #81B1CC;
     text-decoration: none;
-    font-size: 0.8rem; 
+    font-size: 0.8rem;
     border: 0.5px solid #81B1CC;
 }
