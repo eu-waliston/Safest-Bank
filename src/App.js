@@ -6,7 +6,8 @@ import Home from './components/home/Home';
 import Register from './components/register/Register';
 import Account from './components/account/Account';
 
-//Bank Function Components
+//Bank Function Components -> Right Navbar
+import Privacy from './components/bank-functions/privacy/Privacy';
 import MyCreditCard from './components/bank-functions/credit-card/my-card/MyCreditCard';
 import AddCard from './components/bank-functions/credit-card/add-new/AddCard';
 import TalkWithUs from './components/bank-functions/talk-with-us/TalkWithUs';
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/credit-card" element={<MyCreditCard />} />
           <Route exact path="/new-card" element={<AddCard />} />
           <Route exact path="/talk-with-us" element={<TalkWithUs />} />
+          <Route exact path="/privacy" element={<Privacy />} />
         </Routes>
       </BrowserRouter>
     </>

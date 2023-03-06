@@ -13,9 +13,9 @@ const Account = () => {
 
                 <div className="top_account">
                     <div className="infos__profile">
-                        <img src={require("../images/profile.png")} alt="profile" className="profile_pic" />
-                        <h1 className="your__name">Your Name</h1>
-                        <p className="your__email">your-email@email.com</p>
+                        <img src={require("../images/1646478006079.jpeg")} alt="profile" className="profile_pic" />
+                        <h1 className="your__name">We Santos</h1>
+                        <p className="your__email">wal-wizard@xmail.com</p>
                     </div>
 
                     <div className="balance__square">

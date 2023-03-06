@@ -14,7 +14,10 @@ const RightMenu = () => {
 
             <h3 className={navbarto ? "nav__items-toggle" : ""}>
                 <i className="nav__items bi bi-shield-lock-fill"></i>
-                privacy
+                <Link className="link_itens" to={"/privacy"}>
+                    privacy
+                </Link>
+
             </h3>
             <h3 className={navbarto ? "nav__items-toggle" : ""}>
                 <i className="nav__items bi bi-credit-card-2-back-fill"></i>
