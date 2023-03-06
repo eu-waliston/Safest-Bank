@@ -22,7 +22,7 @@ const Home = () => {
                     <Link to={"/account"} className="Link-">log in</Link>
                 </button>
 
-                <a href="/" className="forgot">Forgot Password</a>
+                <Link to={"/recover"} className="forgot">Forgot Password?</Link>
 
                 <p>New in bank app ? <Link to="/register">sign in</Link></p>
             </div>

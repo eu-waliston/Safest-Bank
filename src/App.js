@@ -1,10 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-
+//Bank Default Imports -> Account & Home
 import Home from './components/home/Home';
-import Register from './components/register/Register';
 import Account from './components/account/Account';
+
+// Bank Function Components -> Recover & Register
+import Register from './components/register/Register';
+import Recover from './components/recover/Recover';
 
 //Bank Function Components -> Right Navbar
 import Privacy from './components/bank-functions/privacy/Privacy';
@@ -20,13 +23,19 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<Home />} />
+
           <Route exact path="/register" element={<Register />} />
+          <Route exact path="/recover" element={<Recover />} />
+
           <Route exact path="/account" element={<Account />} />
+
           <Route exact path="/credit-card" element={<MyCreditCard />} />
           <Route exact path="/new-card" element={<AddCard />} />
+
           <Route exact path="/talk-with-us" element={<TalkWithUs />} />
           <Route exact path="/privacy" element={<Privacy />} />
           <Route exact path="/edit-privacy-info" element={<EditInfo />} />
+
         </Routes>
       </BrowserRouter>
     </>
