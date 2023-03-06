@@ -11,7 +11,7 @@ const Recover = () => {
                 <h3>Don't worry! <i class="bi bi-heart-fill"></i></h3>
                 <div className="email_check">
                     <label><i class="bi bi-envelope"></i> Email:</label>
-                    <input type={"text"} placeholder="your email.." />
+                    <input type={"email"} placeholder="your email.." required />
                     <Link to={"/"} className="recovery__btn">Send</Link>
                 </div>
             </div>
