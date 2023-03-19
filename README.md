@@ -2,7 +2,7 @@
 
 A Bank MOBILE app using React
 
-OBS: In progress
+OBS: In progress and u need open with ur phone
 
 APP >> https://bank-app-wheat.vercel.app/account
 
