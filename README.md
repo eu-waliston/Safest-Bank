@@ -1,6 +1,6 @@
 # Bank App
 
-A Bank MOBILE app using React
+A Bank mobile app using React
 
 OBS: In progress and u need open with ur phone
 
