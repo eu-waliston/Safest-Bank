@@ -13,7 +13,7 @@
 .RightNav {
     background-color:  #81B1CC ;
     height: 100vh;
-    width: 45%;
+    width: 50%;
     z-index: 4;
     position: fixed;
     left: 210px;
@@ -28,9 +28,9 @@
 
     background-color:  #81B1CC ;
     height: 100vh;
-    width: 45%;
+    width: 50%;
     z-index: 4;
-    position: fixed; 
+    position: fixed;
 
     transition: 0.7s;
 }
@@ -52,8 +52,8 @@
 
 .nav__items-toggle {
     display: none;
-   
-    
+
+
 }
 
 .link_itens {
