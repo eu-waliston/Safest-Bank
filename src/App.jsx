@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //Bank Default Imports -> Account & Home
-import Home from './components/home/Home';
-import Account from './components/account/Account';
+import Home from './pages/home/Home';
+import Account from './pages/account/Account';
 
 // Bank Function Components -> Recover & Register
-import Register from './components/register/Register';
-import Recover from './components/recover/Recover';
+import Register from './pages/register/Register';
+import Recover from './pages/recover/Recover';
 
 //Bank Function Components -> Right Navbar
 import Privacy from './components/bank-functions/privacy/Privacy';
