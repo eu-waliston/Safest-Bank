@@ -14,8 +14,10 @@ import Privacy from './components/bank-functions/privacy/Privacy';
 import EditInfo from './components/bank-functions/privacy/edit-info/EditInfo';
 import MyCreditCard from './components/bank-functions/credit-card/my-card/MyCreditCard';
 import AddCard from './components/bank-functions/credit-card/add-new/AddCard';
-import TalkWithUs from './components/bank-functions/talk-with-us/TalkWithUs';
+import TalkWithUs from './components/bank-functions/talk-with-us/Talkwithus.Component';
 
+//Bank Function Components -> Left Navbar
+import Savings from './pages/savings/Savings';
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
           <Route exact path="/talk-with-us" element={<TalkWithUs />} />
           <Route exact path="/privacy" element={<Privacy />} />
           <Route exact path="/edit-privacy-info" element={<EditInfo />} />
+
+          <Route exact path="/savings" element={<Savings />} />
 
         </Routes>
       </BrowserRouter>

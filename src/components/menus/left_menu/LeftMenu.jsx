@@ -16,12 +16,19 @@ const LeftMenu = () => {
                         <Link className="link_itens" to={"/account"}>
                             account
                         </Link>
-
                     </h3>
+                    
                     <h3><i class="nav__item bi bi-cash-stack"></i>loan </h3>
                     <h3><i class="nav__item bi bi-arrow-left-right"></i>transfer</h3>
                     <h3><i class="nav__item bi bi-credit-card-2-back"></i>payments</h3>
-                    <h3><i class="nav__item bi bi-piggy-bank-fill"></i>savings</h3>
+
+                    <h3>
+                        <i class="nav__item bi bi-piggy-bank-fill"></i>
+                        <Link className="link_itens" to={"/savings"}>
+                        savings
+                        </Link>
+                    </h3>
+
                     <h3><i class="nav__item bi bi-bar-chart-fill"></i>finance</h3>
                     <h3><i class="nav__item bi bi-currency-exchange"></i>exchange</h3>
                 </div>
