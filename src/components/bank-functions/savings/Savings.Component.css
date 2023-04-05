@@ -8,7 +8,7 @@
     width: 180px;
     border-radius: 100px;
     position: relative;
-    top: 70px;
+    top: 30px;
 }
 
 .saves:hover {
@@ -19,12 +19,12 @@
 
 .savings__h1 {
     position: relative;
-    top: 80px;
+    top: 40px;
 }
 
 .savings__cash {
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 
 .op {
@@ -32,7 +32,7 @@
     align-items: center;
     align-content: center;
     position: relative;
-    top: 25%;
+    top: 10%;
     gap: 30px;
 }
 
