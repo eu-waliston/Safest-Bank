@@ -1,0 +1,53 @@
+.savings__component {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.saves {
+    width: 180px;
+    border-radius: 100px;
+    position: relative;
+    top: 70px;
+}
+
+.saves:hover {
+    transition: .5s;
+    transform: rotateY(360deg);
+    cursor: pointer;
+}
+
+.savings__h1 {
+    position: relative;
+    top: 80px;
+}
+
+.savings__cash {
+    position: relative;
+    top: 100px;
+}
+
+.op {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 25%;
+    gap: 30px;
+}
+
+
+.fa-coins, .plus, .bi-coin {
+    color: gold;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.deposit, .withdraw {
+    cursor: pointer;
+}
+
+.deposit:hover, .withdraw:hover {
+    transition: .5s;
+    color: gold;
+}
