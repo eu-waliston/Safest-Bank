@@ -20,7 +20,14 @@ const LeftMenu = () => {
                     
                     <h3><i class="nav__item bi bi-cash-stack"></i>loan </h3>
                     <h3><i class="nav__item bi bi-arrow-left-right"></i>transfer</h3>
-                    <h3><i class="nav__item bi bi-credit-card-2-back"></i>payments</h3>
+                   
+
+                    <h3>
+                        <i class="nav__item bi bi-credit-card-2-back"></i>
+                        <Link className="link_itens" to={"/payments"}>
+                        payments
+                        </Link>
+                    </h3>
 
                     <h3>
                         <i class="nav__item bi bi-piggy-bank-fill"></i>
