@@ -30,7 +30,7 @@ const Register = () => {
 
                     </div>
 
-                    <p className="already">already sign up ? <Link to={"/"}>log in</Link></p>
+                    <p className="already">already sign up ? <Link className="forgot" to={"/"}>log in</Link></p>
                 </div>
             </div>
         </div>

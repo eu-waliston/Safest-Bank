@@ -24,7 +24,7 @@ const Home = () => {
 
                 <Link to={"/recover"} className="forgot">Forgot Password?</Link>
 
-                <p>New in bank app ? <Link to="/register">sign in</Link></p>
+                <p>New in Safest ? <Link to="/register"className="forgot" >sign in</Link></p>
             </div>
         </div>
 

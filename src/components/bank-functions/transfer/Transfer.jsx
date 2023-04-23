@@ -27,7 +27,14 @@ const Transfer = () => {
                     </div>
                 </div>
 
-                
+                <div className="tranfer__data">
+                    <img src={require("../../images/trans.png")} alt="icon" className="trans__icons" />
+
+                    <button className="btn__trans">new operation</button>
+                </div>
+
+                <div className="tranfer__hsitory">
+                </div>
 
             </div>
         </>

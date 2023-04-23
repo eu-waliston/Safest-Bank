@@ -78,3 +78,7 @@ BOTTOM SIDE
   letter-spacing: 2px;
   font-weight: bold;
 }
+
+.forgot {
+    text-decoration: none;
+}

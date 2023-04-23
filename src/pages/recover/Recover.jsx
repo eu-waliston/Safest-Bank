@@ -12,7 +12,9 @@ const Recover = () => {
                 <div className="email_check">
                     <label><i class="bi bi-envelope"></i> Email:</label>
                     <input type={"email"} placeholder="your email.." required />
-                    <Link to={"/"} className="recovery__btn">Send</Link>
+                    <Link to={"/"} className="recovery__btn">
+                        <p>send</p>
+                    </Link>
                 </div>
             </div>
         </RECOVER>
@@ -76,10 +78,16 @@ background-color: #B297E6;
             text-transform: uppercase;
             color: #B297E6;
             background-color: #fff;
-            width: 40%;
-            height: 25px;
+            width: 45%;
+            height: 40px;
             border-radius: 5px;
-            margin-left: 32%;
+            margin-left: 28%;
+
+            p {
+                font-size: 1.3rem;
+                position: relative;
+                top: 5px;
+            }
         }
     }
 }
