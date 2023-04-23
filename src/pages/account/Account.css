@@ -146,3 +146,8 @@
 .ft {
     font-size: 1.1rem;
 }
+
+.tts {
+    text-decoration: none;
+    color: #fff;
+}

@@ -3,6 +3,9 @@ import "./Account.css";
 
 import LeftMenu from "../../components/menus/left_menu/LeftMenu";
 import RightMenu from "../../components/menus/right_menu/RightMenu";
+import { Link } from "react-router-dom";
+
+
 
 const Account = () => {
     return (
@@ -21,7 +24,11 @@ const Account = () => {
                     <div className="balance__square">
                         <h3 className="op_b">balance</h3>
                         <h3 className="money">R$ 4,180.20</h3>
-                        <button className="tranfer">transfer</button>
+                        <button className="tranfer">
+                            <Link to={"/transfer"} className="tts">
+                                    transfer
+                            </Link>
+                        </button>
                     </div>
                 </div>
                 <div className="botton_account">
