@@ -9,7 +9,7 @@ const Home = () => {
         <div className="home">
 
             <div className="top__side">
-                <h1>welcome!</h1>
+                <h1>SAFEST BANK.</h1>
                 <img src={require("../../components/images/logo.png")} alt="logo" className="logo" />
             </div>
 
