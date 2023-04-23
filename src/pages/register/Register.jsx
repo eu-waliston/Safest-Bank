@@ -7,11 +7,6 @@ const Register = () => {
     return (
         <div className="register">
             <div className="top__section">
-                <div className="grid__icons">
-                    <img src={require("../../components/images/icon_1.png")} alt="icon" className="icons_st" />
-                    <img src={require("../../components/images/icon_2.png")} alt="icon" className="icons_st" />
-                    <img src={require("../../components/images/icon_3.png")} alt="icon" className="icons_st" />
-                </div>
                 <TITLE>connect to your bank account</TITLE>
             </div>
             <div className="bottom__section">

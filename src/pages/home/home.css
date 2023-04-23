@@ -13,7 +13,7 @@ HOME
 TOP SIDE
 */
 .top__side {
-   background-color:  #81B1CC;
+   background-color:  #B297E6;
     top: -91px;
     position: relative;
     width: 100%;
@@ -67,7 +67,7 @@ BOTTOM SIDE
     width: 40%;
     height: 40px;
     margin-left: 30%;
-    background-color:   #81B1CC;
+    background-color:   #B297E6;
     border-radius: 5px;
     border: none;
 }

@@ -22,7 +22,7 @@ const Recover = () => {
 const RECOVER = styled.div`
 width: 100%;
 height: 100vh;
-background-color: #81B1CC;
+background-color: #B297E6;
 
 .recover__section {
     display: grid;
@@ -74,7 +74,7 @@ background-color: #81B1CC;
             position: relative;
             top: 20px;
             text-transform: uppercase;
-            color: #81B1CC;
+            color: #B297E6;
             background-color: #fff;
             width: 40%;
             height: 25px;

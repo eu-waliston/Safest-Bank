@@ -5,13 +5,13 @@
 }
 
 .top__section {
-    background-color: #81B1CC;
+    background-color: #B297E6;
     width: 100%;
     height: 15%;
 }
 
 .name {
-    color: #81B1CC;
+    color: #B297E6;
     text-transform: capitalize;
     position: relative;
     top: 10px;
@@ -32,18 +32,18 @@
 }
 
 .agency__icons {
-    color: #81B1CC;
+    color: #B297E6;
     font-size: 1.4rem;
     margin-right: 5px;
 }
 
 .personal__info span {
-    color: #81B1CC;
+    color: #B297E6;
     font-weight: 600;
 }
 
 .edit__btn {
-    background-color: #81B1CC;
+    background-color: #B297E6;
     height: 40px;
     width: 120px;
     position: relative;

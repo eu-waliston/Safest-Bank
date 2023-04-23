@@ -16,7 +16,7 @@
     width: 100%;
     height: 60vh;
 
-    background-color: #81B1CC;
+    background-color: #B297E6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,12 +65,12 @@
     top: 5px;
     position: relative;
     text-transform: uppercase;
-    color: #688fa5;
+    color: #B297E6;
     font-size: 14px;
 }
 
 .money {
-    color: #65889c;
+    color: #B297E6;
     font-size: 22px;
     position: relative;
     top: -10px;
@@ -79,7 +79,7 @@
 .tranfer {
     text-decoration: none;
     color: #fff;
-    background-color: #81B1CC;
+    background-color: #B297E6;
     text-transform: uppercase;
     font-size: .9rem;
     width: 110px;
@@ -87,7 +87,7 @@
     position: relative;
     top: -25px;
     border-radius: 5px;
-    border: 0.5px solid #81B1CC;
+    border: 0.5px solid #B297E6;
 }
 
 /*------------------------------------*/
@@ -96,7 +96,7 @@
     top: -80px;
     text-align: center;
     text-transform: uppercase;
-    color: #81B1CC;
+    color: #B297E6;
     font-size: 15px;
 
 
@@ -124,7 +124,7 @@
 
 .fa-circle {
     margin-right: 10px;
-    color: #81B1CC;
+    color: #B297E6;
 }
 
 
@@ -137,7 +137,7 @@
     position: relative;
     font-size: 15px;
     margin-left: 75%;
-    color: #81B1CC;
+    color: #B297E6;
     display: block;
     top: -25px;
 

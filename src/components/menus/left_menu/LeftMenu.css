@@ -1,5 +1,5 @@
 .navbar {
-    background-color:  #81B1CC;
+    background-color:  #B297E6;
     height: 100vh;
     width: 50%;
     position: fixed;
@@ -9,7 +9,7 @@
 }
 
 .navbar-toggle {
-    background-color: #81B1CC ;
+    background-color: #B297E6 ;
     height: 100vh;
     width: 0;
     z-index: 9999;

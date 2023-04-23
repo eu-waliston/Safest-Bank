@@ -19,6 +19,8 @@ import TalkWithUs from './components/bank-functions/talk-with-us/Talkwithus.Comp
 //Bank Function Components -> Left Navbar
 import Savings from './pages/savings/Savings';
 import Payment from './components/bank-functions/payments/Payment';
+import Transfer from './components/bank-functions/transfer/Transfer';
+
 
 
 function App() {
@@ -42,6 +44,7 @@ function App() {
 
           <Route exact path="/savings" element={<Savings />} />
           <Route exact path="/payments" element={<Payment />} />
+          <Route exact path="/transfer" element={<Transfer />} />
 
         </Routes>
       </BrowserRouter>

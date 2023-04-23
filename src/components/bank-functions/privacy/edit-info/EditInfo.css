@@ -27,7 +27,7 @@
 }
 
 .edit__form label {
-    color: #81B1CC;
+    color: #B297E6;
     font-weight: 600;
 }
 
@@ -42,7 +42,7 @@
 .bnt__cancel {
     color: #fff;
     text-decoration: none;
-    background-color: #81B1CC;
+    background-color: #B297E6;
     padding: 8px;
     border-radius: 3px;
 }
