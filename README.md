@@ -1,8 +1,8 @@
 # Bank App
 
-## In this project, for now, you need to use your cell phone, you can find the frontend link below 
+## For now, you need to use your cell phone, link below:
 
-APP >> https://bank-hv4qris61-bkt-tonton.vercel.app/
+ https://bank-hv4qris61-bkt-tonton.vercel.app/
 
 New project design:
 
