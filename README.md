@@ -4,7 +4,7 @@ A Bank mobile app using React
 
 OBS: In progress and u need open with ur phone
 
-APP >> https://bank-app-wheat.vercel.app/account
+APP >> https://bank-hv4qris61-bkt-tonton.vercel.app/
 
 Project Design:
 (App With diferent colors pallete)
