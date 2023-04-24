@@ -1,13 +1,11 @@
 # Bank App
 
-A Bank mobile app using React
+## For now, you need to use your cell phone, link below:
 
-OBS: In progress and u need open with ur phone
+ https://bank-hv4qris61-bkt-tonton.vercel.app/
 
-APP >> https://bank-app-wheat.vercel.app/account
+New project design:
 
-Project Design:
-(App With diferent colors pallete)
+![new-design](https://user-images.githubusercontent.com/82295321/234136774-8fa9d69f-4cd2-41a2-bcf6-50409948e1d4.png)
 
-![WhatsApp Image 2023-02-17 at 14 08 53](https://user-images.githubusercontent.com/82295321/222924263-f5424c60-d744-4002-b6b7-dbc5d0355e69.jpeg)
 
