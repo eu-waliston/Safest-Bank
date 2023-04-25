@@ -14,7 +14,6 @@ userRouter.post('/new-user', async (req, res) => {
     res.status(500).send(error);
   }
 });
-
 userRouter.get('/new-user', async (req, res) => {
   try {
     const getUser = await CreateUSer.find({});
@@ -32,4 +31,5 @@ userRouter.get('/new-user/:id', async (req, res) => {
     res.status(500).send({ error: 'User not found' });
   }
 });
+
 module.exports = userRouter;
