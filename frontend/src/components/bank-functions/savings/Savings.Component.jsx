@@ -14,7 +14,7 @@ const SavingsComponent = () => {
           Savings
         </h1>
       </div>
-
+      <hr className="hr" />
       <img
         src={require("../../images/saves.jpg")}
         alt="saves"
