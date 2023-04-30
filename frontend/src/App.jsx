@@ -21,6 +21,8 @@ import Savings from './pages/savings/Savings';
 import Payment from './components/bank-functions/payments/Payment';
 import Transfer from './components/bank-functions/transfer/Transfer';
 import Loan from './components/bank-functions/loan/Loan';
+import Exchange from './components/bank-functions/exchange/Exchange';
+
 
 
 
@@ -47,6 +49,7 @@ function App() {
           <Route exact path="/payments" element={<Payment />} />
           <Route exact path="/transfer" element={<Transfer />} />
           <Route exact path="/loan" element={<Loan />} />
+          <Route exact path="/exchange" element={<Exchange />} />
 
         </Routes>
       </BrowserRouter>

@@ -48,7 +48,13 @@ const LeftMenu = () => {
                     </h3>
 
                     <h3><i class="nav__item bi bi-bar-chart-fill"></i>finance</h3>
-                    <h3><i class="nav__item bi bi-currency-exchange"></i>exchange</h3>
+
+                    <h3>
+                        <i class="nav__item bi-currency-exchange"></i>
+                        <Link className="link_itens" to={"/exchange"}>
+                        exchange
+                        </Link>
+                    </h3>
                 </div>
             </div>
         </>
