@@ -22,7 +22,7 @@ const Exchange = () => {
             <div className="exchange__component">
                 <div className="top__itens">
                     <img src={require("../../images/doll.png")} alt="icons" className="doll__icon" />
-                    <i class="bi bi-arrow-left-right"></i>
+                    <i class="bi bi-arrow-left-right ssj4"></i>
                     <img src={require("../../images/eur.png")} alt="icons" className="eur__icon" />
                 </div>
 
