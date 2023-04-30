@@ -26,10 +26,12 @@ const SavingsComponent = () => {
       <div className="op">
         <h1 className="deposit">
           <span className="plus">+</span>
-          <i class="fa-solid fa-coins"></i> &nbsp; Cash Deposit
+          <i class="fa-solid fa-coins"></i>
+          <h4>Cash Deposit</h4>
         </h1>
         <h1 className="withdraw">
-          <i class="bi bi-coin"></i>&nbsp;&nbsp;&nbsp; Withdraw
+          <i class="bi bi-coin"></i>
+          <h4>Withdraw</h4>
         </h1>
       </div>
     </div>
