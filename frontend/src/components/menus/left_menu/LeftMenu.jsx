@@ -18,7 +18,12 @@ const LeftMenu = () => {
                         </Link>
                     </h3>
                     
-                    <h3><i class="nav__item bi bi-cash-stack"></i>loan </h3>
+                    <h3>
+                        <i class="nav__item bi bi-cash-stack"></i>
+                        <Link className="link_itens" to={"/loan"}>
+                        loan
+                        </Link>
+                    </h3>
 
                     <h3>
                         <i class="nav__item bi bi-arrow-left-right"></i>

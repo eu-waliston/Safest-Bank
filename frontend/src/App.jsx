@@ -20,6 +20,7 @@ import TalkWithUs from './components/bank-functions/talk-with-us/Talkwithus.Comp
 import Savings from './pages/savings/Savings';
 import Payment from './components/bank-functions/payments/Payment';
 import Transfer from './components/bank-functions/transfer/Transfer';
+import Loan from './components/bank-functions/loan/Loan';
 
 
 
@@ -45,6 +46,7 @@ function App() {
           <Route exact path="/savings" element={<Savings />} />
           <Route exact path="/payments" element={<Payment />} />
           <Route exact path="/transfer" element={<Transfer />} />
+          <Route exact path="/loan" element={<Loan />} />
 
         </Routes>
       </BrowserRouter>
