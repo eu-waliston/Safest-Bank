@@ -2,7 +2,7 @@
 
 ## For now, you need to use your cell phone, link below:
 
- https://bank-hv4qris61-bkt-tonton.vercel.app/
+https://bank-app-dun-zeta.vercel.app/
 
 Project design:
 
