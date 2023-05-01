@@ -17,42 +17,49 @@ const LeftMenu = () => {
                             account
                         </Link>
                     </h3>
-                    
+
                     <h3>
                         <i class="nav__item bi bi-cash-stack"></i>
                         <Link className="link_itens" to={"/loan"}>
-                        loan
+                            loan
                         </Link>
                     </h3>
 
                     <h3>
                         <i class="nav__item bi bi-arrow-left-right"></i>
                         <Link className="link_itens" to={"/transfer"}>
-                        transfer
+                            transfer
                         </Link>
                     </h3>
-                   
+
 
                     <h3>
                         <i class="nav__item bi bi-credit-card-2-back"></i>
                         <Link className="link_itens" to={"/payments"}>
-                        payments
+                            payments
                         </Link>
                     </h3>
 
                     <h3>
                         <i class="nav__item bi bi-piggy-bank-fill"></i>
                         <Link className="link_itens" to={"/savings"}>
-                        savings
+                            savings
                         </Link>
                     </h3>
 
-                    <h3><i class="nav__item bi bi-bar-chart-fill"></i>finance</h3>
+                    <h3>
+                        <i class="nav__item  bi bi-bar-chart-fill"></i>
+                        <Link className="link_itens" to={"/finance"}>
+                            finance
+                        </Link>
+                    </h3>
+
+
 
                     <h3>
                         <i class="nav__item bi-currency-exchange"></i>
                         <Link className="link_itens" to={"/exchange"}>
-                        exchange
+                            exchange
                         </Link>
                     </h3>
                 </div>
