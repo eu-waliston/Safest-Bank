@@ -8,7 +8,7 @@ O Bank App oferece uma ampla gama de recursos personalizáveis, permitindo que v
 
 Com o Bank App, a era das longas filas e deslocamentos até a agência chegou ao fim. Simplifique sua vida financeira e experimente a comodidade do futuro bancário hoje mesmo. Baixe o SmartBank agora e leve o poder do seu banco para onde quer que vá.
 
-Design do Projeto
+### Design do Projeto: 
 
 ![new-design](https://user-images.githubusercontent.com/82295321/234136774-8fa9d69f-4cd2-41a2-bcf6-50409948e1d4.png)
 
