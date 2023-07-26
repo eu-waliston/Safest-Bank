@@ -1,5 +1,5 @@
 import React from "react";
-import "./Transfer.css";
+import "./Transfer.scss";
 import LeftMenu from "../../menus/left_menu/LeftMenu";
 import RightMenu from "../../menus/right_menu/RightMenu";
 import { Link } from "react-router-dom";
