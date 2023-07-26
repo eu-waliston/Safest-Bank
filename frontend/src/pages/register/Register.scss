@@ -1,0 +1,73 @@
+@import "../../utilities/varaibles.scss";
+
+.register {
+  width: 100%;
+  height: 100vh;
+  background-color: $second-color;
+
+  .top__section {
+    background-color: $master-color;
+    width: 100%;
+    height: 30vh;
+  }
+
+  .bottom__section {
+    width: 100%;
+    height: 50vh;
+    text-transform: capitalize;
+    background-color: $second-color;
+
+    .form {
+      display: grid;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      position: relative;
+      top: 15%;
+      gap: 20px;
+
+      .input__field {
+        width: 70%;
+        height: 45px;
+        text-align: center;
+        margin-left: 15%;
+        border-radius: 5px;
+        border: 0.5px solid $master-color;
+      }
+
+      .confirm {
+        font-size: 0.9rem;
+        .checkbox {
+          margin-right: 10px;
+        }
+      }
+
+      .btns {
+        .Link {
+          color: $text-color-1;
+          font-size: 0.8rem;
+          text-decoration: none;
+        }
+
+        .bnt_1 {
+          background-color: $master-color;
+          padding: 8px;
+          text-transform: uppercase;
+          margin-right: 10px;
+          border-radius: 5px;
+        }
+
+        .btn_2 {
+          padding: 8px;
+          text-transform: uppercase;
+          margin-left: 10px;
+          border-radius: 5px;
+          color: $master-color;
+          text-decoration: none;
+          font-size: 0.8rem;
+          border: 0.5px solid $master-color;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Account.css";
+import "./Account.scss";
 
 import LeftMenu from "../../components/menus/left_menu/LeftMenu";
 import RightMenu from "../../components/menus/right_menu/RightMenu";
@@ -17,6 +17,7 @@ const Account = () => {
                 <div className="top_account">
                     <div className="infos__profile">
                         <img src={require("../../components/images/1646478006079.jpeg")} alt="profile" className="profile_pic" />
+                        
                         <h1 className="your__name">We Santos <i class="bi bi-pencil-fill"></i></h1>
                         <p className="your__email">wal-wizard@xmail.com</p>
                     </div>

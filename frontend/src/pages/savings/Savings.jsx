@@ -1,5 +1,5 @@
 import React from "react";
-import "./Savings.css";
+import "./Savings.scss";
 
 import SavingsComponent from "../../components/bank-functions/savings/Savings.Component";
 

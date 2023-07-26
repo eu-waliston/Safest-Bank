@@ -1,0 +1,136 @@
+@import "../../utilities/varaibles.scss";
+
+.account {
+  width: 100%;
+  height: 100vh;
+
+  .top_account {
+    background-color: $second-color;
+
+    .infos__profile {
+      width: 100%;
+      height: 60vh;
+      background-color: $master-color;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .profile_pic {
+        width: 120px;
+        background-color: $text-color-1;
+        border-radius: 100px;
+        padding: 5px;
+        position: relative;
+        top: 15%;
+      }
+      .your__name {
+        font-size: 20px;
+        top: 18%;
+      }
+      .your__email {
+        position: relative;
+        top: 20%;
+        color: $text-color-1;
+        text-transform: none;
+      }
+    }
+
+    .balance__square {
+      position: relative;
+      text-align: center;
+      background-color: $text-color-1;
+      width: 70%;
+      height: 110px;
+      top: -140px;
+      margin-left: 15%;
+      border-radius: 10px;
+      box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.22);
+
+      .tranfer,
+      .op_b,
+      .money {
+        margin-bottom: 18px;
+      }
+
+      .money {
+        color: $second-color;
+        font-size: 22px;
+        position: relative;
+        top: -10px;
+      }
+
+      .tranfer {
+        text-decoration: none;
+        color: $text-color-1;
+        background-color: $second-color;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        width: 110px;
+        height: 38px;
+        position: relative;
+        top: -25px;
+        border-radius: 5px;
+        border: 0.5px solid $second-color;
+      }
+    }
+  }
+
+  .botton_account {
+    background-color: $second-color;
+    .lattest {
+      position: relative;
+      top: -80px;
+      text-align: center;
+      text-transform: uppercase;
+      color: $master-color;
+      font-size: 15px;
+    }
+    .grid__trans {
+      display: flex;
+      column-gap: 25px;
+      position: relative;
+      top: -55px;
+      margin-left: 4%;
+      background-color: $second-color;
+
+      .movings {
+        position: relative;
+        margin-left: 15px;
+        font-size: 15px;
+        h4 {
+          margin-bottom: 13px;
+          font-weight: lighter;
+
+          .fa-circle {
+            margin-right: 10px;
+            color: #b297e6;
+          }
+        }
+      }
+
+      .moving_cash {
+        h4 {
+          font-weight: lighter;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .more {
+      position: relative;
+      font-size: 15px;
+      margin-left: 75%;
+      color: #b297e6;
+      display: block;
+      top: -25px;
+    }
+  }
+
+  .ft {
+    font-size: 1.1rem;
+  }
+
+  .tts {
+    text-decoration: none;
+    color: #fff;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "./Home.scss";
 import { Link } from "react-router-dom";
 
 
