@@ -64,3 +64,47 @@
     }
   }
 }
+
+@media (min-width: $layout-breakpoint-medium) {
+  .card__table {
+
+    .middle__info {
+      .credit-card {
+        width: 40%;
+        margin-top: 5%;
+        position: relative;
+        margin-left: 30%;
+      }
+  
+      .card__info {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+  
+        .card1,
+        .card2 {
+          text-align: center;
+          padding: 20px;
+          margin-right: 150px;
+          margin-left: 8%;
+        }
+  
+        .card1 {
+          &:active {
+            background-color: rgb(226, 11, 11);
+            color: #fff;
+          }
+        }
+  
+        .card2 {
+          #Link {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

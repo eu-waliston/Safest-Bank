@@ -64,3 +64,44 @@
     }
   }
 }
+
+@media (min-width: $layout-breakpoint-medium) {
+  .edit__info__section {
+
+    .edit__form {
+      width: 40%;
+      margin-left: 30%;
+
+      input {
+        height: 50px;
+      }
+    }
+  
+    .finish__buttons {
+      display: flex;
+      justify-content: space-evenly;
+      position: relative;
+      top: 40px;
+  
+      .bnt_okay,
+      .bnt__cancel {
+        color: $text-color-1;
+        text-decoration: none;
+        background-color: $master-color;
+        padding: 18px;
+        border-radius: 3px;
+        text-align: center;
+      }
+  
+      .bnt_okay:active {
+        color: green;
+        transform: translateX(3px);
+      }
+  
+      .bnt__cancel:active {
+        color: red;
+        transform: translateX(3px);
+      }
+    }
+  }
+}

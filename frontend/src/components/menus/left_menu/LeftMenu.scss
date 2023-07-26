@@ -56,3 +56,17 @@
   margin-bottom: 55px;
   margin-right: 10px;
 }
+
+
+//Resposive Area 
+@media (min-width: $layout-breakpoint-medium) {
+  .bi-list {
+    font-size:3rem;
+  }
+
+  .navbar {
+    background-color: $master-color;
+    width: 15%;
+  }
+
+}

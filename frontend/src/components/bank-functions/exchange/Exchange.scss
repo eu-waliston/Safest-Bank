@@ -73,3 +73,19 @@
     }
   }
 }
+
+@media (min-width: $layout-breakpoint-medium) {
+  .exchange__component {
+    .top__itens {
+      .img__icon {
+        width: 200px;
+      }
+    }
+    .main__itens_ex {
+      select {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}

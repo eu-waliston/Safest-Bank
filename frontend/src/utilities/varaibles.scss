@@ -1,10 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-$master-color: #b297e6;
+//fonts default
 $site-font: "Montserrat", sans-serif;
+
+//site colors 
+$master-color: #b297e6;
 $second-color: #f5f5f5;
 $text-color-1: #fff;
 
 //Defaults Navbar Sizes
 $default-nav-width: 100%;
 $default-nav-height: 15vh;
+
+//responsive views Computers and tablets
+$layout-breakpoint-small: 960px;
+$layout-breakpoint-medium: 1024px;
+$layout-breakpoint-big: 1920px;

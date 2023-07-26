@@ -75,3 +75,31 @@
     text-decoration: none;
   }
 }
+
+//Resposive Area
+@media (min-width: $layout-breakpoint-medium) {
+  .top__side {
+    h1 {
+      font-size: 4.5rem !important;
+    }
+
+    .logo {
+      margin-left: 43% !important;
+    }
+  }
+
+  .bottom__side {
+    top: -20% !important;
+
+    input {
+      width: 30% !important;
+      margin-left: 35% !important;
+    }
+
+    .login {
+      width: 10% !important;
+      height: 50px !important;
+      margin-left: 45% !important;
+    }
+  }
+}

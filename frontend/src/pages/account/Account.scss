@@ -53,15 +53,17 @@
       .money {
         margin-bottom: 18px;
         position: relative;
-        top: 18px;
+        top: 10px;
         color: $master-color;
       }
 
       .money {
-        color: $second-color;
+        color: $master-color;
         font-size: 22px;
         position: relative;
         top: -10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
 
       .tranfer {
@@ -139,3 +141,119 @@
     color: #fff;
   }
 }
+
+
+//Resposive Area 
+@media (min-width: $layout-breakpoint-medium) {
+  .account {
+    .top_account {
+      .infos__profile {
+        .profile_pic {
+          width: 200px;
+          top: 15%;
+        }
+        .your__email {
+          top: 20%;
+          font-size: 1.3rem;
+        }
+      }
+  
+      .balance__square {
+        width: 40%;
+        height: 200px;
+        top: -215px;
+        margin-left: 30%;
+
+        .tranfer,
+        .op_b,
+        .money {
+          margin-bottom: 18px;
+          position: relative;
+          top: 10px;
+          color: $master-color;
+          font-size: 2rem;
+          text-transform: capitalize;
+          margin-bottom: 30px;
+        }
+  
+        .money {
+          color: $master-color;
+          font-size: 22px;
+          position: relative;
+          top: -10px;
+          margin-top: 20px;
+          margin-bottom: 30px;
+        }
+  
+        .tranfer {
+          text-decoration: none;
+          color: $text-color-1;
+          background-color: $master-color;
+          text-transform: uppercase;
+          font-size: 0.9rem;
+          width: 150px;
+          height: 60px;
+          position: relative;
+          top: -5px;
+          border-radius: 5px;
+          border: 0.5px solid $second-color;
+        }
+      }
+    }
+  
+    .botton_account {
+      background-color: $second-color;
+      .lattest {
+        top: -150px;
+        font-size: 1.8rem;
+      }
+      .grid__trans {
+        display: flex;
+        column-gap: 25px;
+        position: relative;
+        top: -55px;
+        margin-left: -4%;
+        background-color: $second-color;
+        justify-content: center;
+        .movings {
+          position: relative;
+          margin-left: 15px;
+          font-size: 1.2rem;
+          h4 {
+            margin-bottom: 13px;
+            font-weight: lighter;
+  
+            .fa-circle {
+              margin-right: 10px;
+              color: $master-color;
+            }
+          }
+        }
+  
+        .moving_cash {
+          h4 {
+            font-weight: lighter;
+            margin-bottom: 13px;
+          }
+        }
+      }
+      .more {
+        position: relative;
+        font-size: 15px;
+        margin-left: 75%;
+        color: #b297e6;
+        display: block;
+        top: -25px;
+      }
+    }
+  
+    .ft {
+      font-size: 1.1rem;
+    }
+  
+    .tts {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+} 

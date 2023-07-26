@@ -1,10 +1,18 @@
 @import "../../../utilities/varaibles.scss";
 
 .top__info {
-  height: 120px;
+  height: 140px;
+  background-color: $master-color;
   .top__h1 {
     color: $text-color-1;
     text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    top: 35px;
+
+    .bi-chevron-left {
+      color: $text-color-1;
+    }
   }
   .hr {
     color: $master-color;
@@ -39,5 +47,36 @@
     border-radius: 5px;
     padding: 10px;
     color: $master-color;
+  }
+
+  .simullate {
+    position: relative;
+    top: 10%;
+    width: 150px;
+    height: 50px;
+    background-color: $text-color-1;
+    color: $master-color;
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+//Resposive Area
+@media (min-width: $layout-breakpoint-medium) {
+
+  .loan__component {
+
+    .loan__img {
+      width: 350px;
+    }
+    .loan__h1 {
+      font-size: 3rem;
+    }
+
+    .all__loans {
+      width: 30%;
+      height: 150px;
+      margin-left: 34%;
+    }
   }
 }

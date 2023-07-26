@@ -16,7 +16,7 @@ import AddCard from "../components/bank-functions/credit-card/add-new/AddCard";
 import TalkWithUs from "../components/bank-functions/talk-with-us/Talkwithus.Component";
 
 //Bank Function Components -> Left Navbar
-import Savings from "../pages/savings/Savings";
+import Savings from "../components/bank-functions/savings/Savings";
 import Payment from "../components/bank-functions/payments/Payment";
 import Transfer from "../components/bank-functions/transfer/Transfer";
 import Loan from "../components/bank-functions/loan/Loan";

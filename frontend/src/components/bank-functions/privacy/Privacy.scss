@@ -11,6 +11,9 @@
     .top__h1 {
       color: $text-color-1;
       background-color: $master-color;
+      .bi-chevron-left {
+        color: $text-color-1;
+      }
     }
   }
 
@@ -64,6 +67,78 @@
         text-decoration: none;
         i {
           margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-medium) {
+  .privacy__section {
+    height: 110vh;
+    .top__section {
+      .top__h1 {
+        text-align: center;
+        position: relative;
+        top: 25%;
+        margin-left: -30px;
+
+        .bi-chevron-left {
+          color: $text-color-1;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .privacy__info {
+      position: relative;
+      top: 100px;
+
+      
+      .name {
+        top: 50px;
+      }
+
+      .personal__info {
+        position: relative;
+        margin-left: 43%;
+
+        p {
+          margin-bottom: 20px;
+          color: $text-color-1;
+        }
+
+        span {
+          color: $text-color-1;
+          font-weight: 600;
+        }
+
+        .agency__icons {
+          color: $text-color-1;
+          font-size: 1.8rem;
+          margin-right: 10px;
+        }
+      }
+
+      .edit__btn {
+        background-color: $text-color-1;
+        height: 50px;
+        width: 150px;
+        position: relative;
+        margin-left: 45%;
+        top: 50px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.13);
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+
+        .Link {
+          text-decoration: none;
+          i {
+            margin-left: 10px;
+          }
         }
       }
     }

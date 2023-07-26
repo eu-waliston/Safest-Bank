@@ -9,6 +9,14 @@
     background-color: $master-color;
     width: 100%;
     height: 30vh;
+
+    .top__h1 {
+      color: #fff;
+      font-size: 1rem;
+      text-align: center;
+      position: relative;
+      top: 34%;
+    }
   }
 
   .bottom__section {
@@ -70,4 +78,53 @@
       }
     }
   }
+}
+
+
+//Resposive area 
+
+@media (min-width: $layout-breakpoint-medium) {
+  .register {
+    .top__section {
+      .top__h1 {
+        font-size: 3rem;
+        top: 40%;
+      }
+    }
+  
+    .bottom__section {
+
+      .form {
+
+        .input__field {
+          width: 40%;
+          margin-left: 30%;
+        }
+  
+        .btns {
+          .Link {
+            color: $text-color-1;
+            font-size: 0.8rem;
+            text-decoration: none;
+          }
+  
+          .bnt_1 {
+            padding: 15px;
+          }
+  
+          .btn_2 {
+            padding: 15px;
+            text-transform: uppercase;
+            margin-left: 10px;
+            border-radius: 5px;
+            color: $master-color;
+            text-decoration: none;
+            font-size: 0.8rem;
+            border: 0.5px solid $master-color;
+          }
+        }
+      }
+    }
+  }
+
 }

@@ -54,7 +54,6 @@
           position: relative;
           left: 10px;
           font-size: 1rem;
-
         }
       }
       .bi-send-fill {
@@ -64,6 +63,18 @@
         right: 6%;
         top: 40px;
         transform: rotate(42deg);
+      }
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-medium) {
+  .talk__with__us {
+    .chat__input {
+      .chat__controls {
+        input {
+          left: -0px;
+        }
       }
     }
   }

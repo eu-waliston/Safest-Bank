@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import "./Register.scss"
 import { Link } from "react-router-dom";
 
@@ -7,7 +6,7 @@ const Register = () => {
     return (
         <div className="register">
             <div className="top__section">
-                <TITLE>connect to your bank account</TITLE>
+                <h1 className="top__h1">connect to your bank account</h1>
             </div>
             <div className="bottom__section">
                 <div className="form">
@@ -36,13 +35,5 @@ const Register = () => {
         </div>
     )
 }
-
-const TITLE = styled.h1`
-    color: #fff;
-    font-size: 1rem;
-    text-align: center;
-    position: relative;
-    top: 34%;
-`
 
 export default Register;

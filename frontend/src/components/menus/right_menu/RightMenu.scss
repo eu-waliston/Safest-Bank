@@ -63,3 +63,22 @@
   transition: 0.7s;
   transform: rotate(100deg);
 }
+
+//Resposive Area 
+@media (min-width: $layout-breakpoint-medium) {
+  .RightNav-toggle {
+    left: 1900px;
+  }
+  .RightNav {
+    left: 1600px;
+
+  }
+  .bi-gear-fill {
+    top: 30px;
+    margin-left: 95%;
+    font-size:2rem;
+  }
+  .nav__items {
+    margin-left: 8%;
+  }
+}

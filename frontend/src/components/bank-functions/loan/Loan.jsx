@@ -16,7 +16,6 @@ const Loan = () => {
                     </Link>
                     loan
                 </h1>
-
             </div>
             <hr className="hr" />
             <div className="loan__component">

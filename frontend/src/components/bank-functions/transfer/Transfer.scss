@@ -13,22 +13,22 @@
     }
   }
 
-.account__pay {
-  .pay_balance {
-    .pay__balance {
-      text-align: center;
-      margin-top: 20px;
-      color: $text-color-1;
-    }
+  .account__pay {
+    .pay_balance {
+      .pay__balance {
+        text-align: center;
+        margin-top: 20px;
+        color: $text-color-1;
+      }
 
-    .money__pay {
-      text-align: center;
-      margin-top: 10px;
-      color: $text-color-1;
+      .money__pay {
+        text-align: center;
+        margin-top: 10px;
+        color: $text-color-1;
+      }
     }
   }
-}
-  
+
   .tranfer__data {
     display: grid;
     text-align: center;
@@ -54,6 +54,35 @@
       border-radius: 5px;
       box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.3);
       font-weight: bold;
+    }
+  }
+}
+
+//Resposive Area
+@media (min-width: $layout-breakpoint-medium) {
+  .tranfer__section {
+
+    .account__pay {
+      .pay_balance {
+        .pay__balance {
+          font-size: 3rem;
+          font-weight: bold;
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    .tranfer__data {
+      display: grid;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      top: 2%;
+
+      .trans__icons {
+        width: 500px;
+      }
     }
   }
 }

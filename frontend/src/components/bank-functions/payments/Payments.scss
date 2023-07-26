@@ -62,3 +62,73 @@
     }
   }
 }
+
+//Resposive Area
+@media (min-width: $layout-breakpoint-medium) {
+  .payment__component {
+    width: 100%;
+    height: 100vh;
+    background-color: $text-color-1;
+
+    .top__info {
+      width: 100%;
+      height: 30vh;
+      .top__h1 {
+        color: $text-color-1;
+        margin-bottom: 10px;
+        position: relative;
+        top: 50px;
+        position: relative;
+      
+      }
+
+      .account__pay {
+        position: relative;
+        text-align: center;
+        top: 37%;
+        margin-left: -5%;
+
+        .pay_balance {
+          position: relative;
+          margin-left: 5%;
+          color: $text-color-1;
+          p {
+            font-size: 1.6rem;
+            position: relative;
+            top: -15px;
+            margin-bottom: 20px;
+          }
+
+          h3 {
+            font-size: 1.5rem;
+            position: relative;
+            top: -15px;
+          }
+        }
+      }
+    }
+
+    .principal__itens {
+      display: grid;
+      grid-template-columns: repeat(3, 300px);
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      position: relative;
+      margin-left: 3%;
+      top: 15%;
+      row-gap: 15px;
+      .pay__icon {
+        width: 90px;
+        border-radius: 100%;
+      }
+      .pay__function {
+        text-transform: capitalize;
+        font-weight: 400;
+        color: rgb(65, 64, 64);
+        font-size: 1rem;
+      }
+    }
+  }
+}

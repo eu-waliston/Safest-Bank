@@ -68,3 +68,71 @@
     }
   }
 }
+
+//Resposive Area 
+@media (min-width: $layout-breakpoint-medium) {
+  .recover__section {
+    .ff-worry {
+      position: relative;
+      top: 50%;
+    }
+    .ff-pass {
+      position: relative;
+      top: 100%;
+      font-size: 3rem;
+    }
+  
+    .email_check {
+      display: grid;
+      width: 30%;
+      margin-left: 35%;
+      margin-top: -5%;
+
+      .email--ss {
+        position: relative;
+        top: 85px;
+      }
+  
+      label {
+        color: $text-color-1;
+        font-size: 1rem;
+  
+        i {
+          font-size: 1.1rem;
+        }
+      }
+  
+      input {
+        height: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+  
+        &::placeholder {
+          position: relative;
+          left: 8px;
+          text-transform: capitalize;
+        }
+      }
+  
+      .recovery__btn {
+        text-decoration: none;
+        text-align: center;
+        position: relative;
+        top: -50px;
+        text-transform: uppercase;
+        color: $master-color;
+        background-color: $text-color-1;
+        width: 40%;
+        height: 40px;
+        border-radius: 5px;
+        margin-left: 30%;
+  
+        p {
+          font-size: 1rem;
+          position: relative;
+          top: 10px;
+        }
+      }
+    }
+  }
+}
