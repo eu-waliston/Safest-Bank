@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./EditInfo.css";
+import "./EditInfo.scss";
 
 
 
@@ -8,7 +8,7 @@ const EditInfo = () => {
     return (
         <div className="edit__info__section">
             <div className="top__section">
-                <h1 >Edit Personal Info</h1>
+                <h1 className="top__section_h1">Edit Personal Info</h1>
             </div>
             <div className="edit__form">
                 <label><i class="agency__icons bi bi-bank2"></i><span>Agency</span> </label>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Payment.css";
+import "./Payments.scss";
 
 import { Link } from "react-router-dom";
 import LeftMenu from "../../menus/left_menu/LeftMenu";

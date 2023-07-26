@@ -1,5 +1,5 @@
 import React from "react";
-import "./Finance.css";
+import "./Finance.scss";
 
 import LeftMenu from "../../menus/left_menu/LeftMenu";
 import RightMenu from "../../menus/right_menu/RightMenu";
@@ -26,7 +26,7 @@ const Finance = () => {
           <h1>R$ 500,000.00</h1>
         </div>
         <div className="infos">
-          <h1>check your moment</h1>
+          <h1 className="infos__h1">check your moment</h1>
           <div className="months">
             <div className="jan">jan</div>
             <div className="feb">feb</div>
@@ -35,14 +35,14 @@ const Finance = () => {
             <div className="mai">mai</div>
           </div>
           <div className="income">
-            <h1>income $ 2,200</h1>
+            <h1 className="income__text">income $ 2,200</h1>
           </div>
           <div className="expense">
-            <h1>Expanse $ 10,000.00</h1>
+            <h1 className="income__text">Expanse $ 10,000.00</h1>
           </div>
         </div>
         <div className="history">
-          <h1>history</h1>
+          <h1 className="history--h1">history</h1>
           <div className="history__itens">
             <div className="history__iten">
               <img

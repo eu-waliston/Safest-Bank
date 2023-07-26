@@ -1,28 +1,27 @@
 import { Route, Routes } from "react-router-dom";
 
 //Bank Default Imports -> Account & Home
-import Home from "../pages/home/Home"
-import Account from '../pages/account/Account';
+import Home from "../pages/home/Home";
+import Account from "../pages/account/Account";
 
 // Bank Function Components -> Recover & Register
-import Register from '../pages/register/Register';
-import Recover from '../pages/recover/Recover';
+import Register from "../pages/register/Register";
+import Recover from "../pages/recover/Recover";
 
 //Bank Function Components -> Right Navbar
-import Privacy from '../components/bank-functions/privacy/Privacy';
-import EditInfo from '../components/bank-functions/privacy/edit-info/EditInfo';
-import MyCreditCard from '../components/bank-functions/credit-card/my-card/MyCreditCard';
-import AddCard from '../components/bank-functions/credit-card/add-new/AddCard';
-import TalkWithUs from '../components/bank-functions/talk-with-us/Talkwithus.Component';
+import Privacy from "../components/bank-functions/privacy/Privacy";
+import EditInfo from "../components/bank-functions/edit-info/EditInfo";
+import MyCreditCard from "../components/bank-functions/credit-card/my-card/MyCreditCard";
+import AddCard from "../components/bank-functions/credit-card/add-new/AddCard";
+import TalkWithUs from "../components/bank-functions/talk-with-us/Talkwithus.Component";
 
 //Bank Function Components -> Left Navbar
-import Savings from '../pages/savings/Savings';
-import Payment from '../components/bank-functions/payments/Payment';
-import Transfer from '../components/bank-functions/transfer/Transfer';
-import Loan from '../components/bank-functions/loan/Loan';
-import Exchange from '../components/bank-functions/exchange/Exchange';
-import Finance from '../components/bank-functions/finance/Finance';
-
+import Savings from "../pages/savings/Savings";
+import Payment from "../components/bank-functions/payments/Payment";
+import Transfer from "../components/bank-functions/transfer/Transfer";
+import Loan from "../components/bank-functions/loan/Loan";
+import Exchange from "../components/bank-functions/exchange/Exchange";
+import Finance from "../components/bank-functions/finance/Finance";
 
 const AllRoutes = () => {
   return (

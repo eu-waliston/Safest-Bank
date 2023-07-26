@@ -1,5 +1,5 @@
 import React from "react";
-import "./Loan.css";
+import "./Loan.scss";
 import { Link } from "react-router-dom";
 import LeftMenu from "../../menus/left_menu/LeftMenu";
 import RightMenu from "../../menus/right_menu/RightMenu";
@@ -9,7 +9,7 @@ const Loan = () => {
         <>
             < LeftMenu />
             < RightMenu />
-            <div className="top__info to__3">
+            <div className="top__info">
                 <h1 className="top__h1">
                     <Link to={"/account"}>
                         <i class="bi bi-chevron-left"></i>
@@ -23,6 +23,7 @@ const Loan = () => {
                 <img src="./images/loan.png" alt="loan" className="loan__img" />
                 <h1 className="loan__h1">Choose your loan type</h1>
                 <div className="all__loans">
+                    
                     <div className="loan__type">
                         <h3>PL</h3>
                         <i class="bi bi-person-fill"></i>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Exchange.css";
+import "./Exchange.scss";
 import { Link } from "react-router-dom";
 import LeftMenu from "../../menus/left_menu/LeftMenu";
 import RightMenu from "../../menus/right_menu/RightMenu";
@@ -20,9 +20,9 @@ const Exchange = () => {
       <hr className="hr" />
       <div className="exchange__component">
         <div className="top__itens">
-          <img src="./images/doll.png" alt="icons" className="doll__icon" />
-          <i class="bi bi-arrow-left-right ssj4"></i>
-          <img src="./images/eur.png" alt="icons" className="eur__icon" />
+          <img src="./images/doll.png" alt="icons" className="img__icon" />
+          <i class="bi bi-arrow-left-right arrow-separator"></i>
+          <img src="./images/eur.png" alt="icons" className="img__icon" />
         </div>
 
         <div className="main__itens_ex">

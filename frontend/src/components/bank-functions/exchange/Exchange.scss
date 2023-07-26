@@ -1,0 +1,75 @@
+@import "../../../utilities/varaibles.scss";
+
+.top__info {
+  .top__h1 {
+    color: $text-color-1;
+  }
+}
+
+.hr {
+  color: $text-color-1;
+}
+
+.exchange__component {
+  background-color: $master-color;
+  width: 100%;
+  height: 100vh;
+
+  .top__itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 6%;
+
+    .img__icon {
+      width: 100px;
+    }
+
+    .arrow-separator {
+      font-size: 3rem;
+      color: #fff;
+    }
+  }
+
+  .main__itens_ex {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    top: 20%;
+    text-align: center;
+
+    .iten__ex_1 {
+      margin-bottom: 30px;
+    }
+
+    .iten__ex_2 {
+      margin-bottom: 30px;
+      h1 {
+        font-size: 1.4rem;
+        color: $text-color-1;
+      }
+    }
+
+    select {
+      width: 50px;
+      height: 40px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      color: $master-color;
+      border: none;
+      border-radius: 5px;
+    }
+
+    input {
+      width: 230px;
+      height: 40px;
+      position: relative;
+      margin-left: 8px;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./MyCreditCard.css";
+import "./MyCreditCard.scss";
 
 import { Link } from "react-router-dom";
 

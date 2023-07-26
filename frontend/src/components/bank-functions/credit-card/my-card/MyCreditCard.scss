@@ -1,0 +1,66 @@
+@import "../../../../utilities/varaibles.scss";
+
+.card__table {
+  width: 100%;
+  height: 100vh;
+  background-color: $second-color;
+
+  .top__info {
+    background-color: $master-color;
+    width: $default-nav-width;
+    height: $default-nav-height;
+    .top__h1 {
+      text-align: center;
+      font-size: 1.5rem;
+      position: relative;
+      top: 60px;
+      margin-left: -60px;
+      .bi-chevron-left {
+        color: #fff;
+        margin-right: 30px;
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  .middle__info {
+    .credit-card {
+      width: 100%;
+      margin-top: 20%;
+      background-color: $second-color;
+    }
+
+    .card__info {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 10%;
+
+      .card1,
+      .card2 {
+        text-align: center;
+        padding: 10px;
+        background-color: $master-color;
+        border: none;
+        color: $text-color-1;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.13);
+      }
+
+      .card1 {
+        &:active {
+          background-color: rgb(226, 11, 11);
+          color: #fff;
+        }
+      }
+
+      .card2 {
+        #Link {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

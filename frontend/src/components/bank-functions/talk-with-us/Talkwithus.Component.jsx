@@ -1,5 +1,5 @@
 import React from "react";
-import "./TalkWithUs.css";
+import "./TalkWithUs.scss";
 
 import { Link } from "react-router-dom";
 

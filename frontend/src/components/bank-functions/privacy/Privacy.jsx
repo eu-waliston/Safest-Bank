@@ -1,5 +1,5 @@
 import React from "react";
-import "./Privacy.css"
+import "./Privacy.scss"
 
 import { Link } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const Privacy = () => {
                 <div className="top__section">
                     <h1 className="top__h1"><Link to={"/account"}><i class="bi bi-chevron-left"></i></Link>Privacy</h1>
                 </div>
-
+                <hr />
                 <div className="privacy__info">
                     <h1 className="name">Hi, We Santos.</h1>
                     <div className="personal__info">

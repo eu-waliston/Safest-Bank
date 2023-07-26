@@ -6,11 +6,29 @@
   background-color: $master-color;
 
   .top__info {
+    width: $default-nav-width;
+    height: $default-nav-height;
     .top__h1 {
       color: $text-color-1;
     }
   }
 
+.account__pay {
+  .pay_balance {
+    .pay__balance {
+      text-align: center;
+      margin-top: 20px;
+      color: $text-color-1;
+    }
+
+    .money__pay {
+      text-align: center;
+      margin-top: 10px;
+      color: $text-color-1;
+    }
+  }
+}
+  
   .tranfer__data {
     display: grid;
     text-align: center;
