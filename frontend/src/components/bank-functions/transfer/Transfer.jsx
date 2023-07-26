@@ -28,7 +28,7 @@ const Transfer = () => {
                 </div>
                 <hr className="hr" />
                 <div className="tranfer__data">
-                    <img src={require("../../images/trans.png")} alt="icon" className="trans__icons" />
+                    <img src="./images/trans.png" alt="icon" className="trans__icons" />
 
                     <button className="btn__trans">new operation</button>
                 </div>

@@ -10,7 +10,7 @@ const Home = () => {
 
             <div className="top__side">
                 <h1>SAFEST BANK.</h1>
-                <img src={require("../../components/images/logo.png")} alt="logo" className="logo" />
+                <img src="./images/logo.png" alt="logo" className="logo" />
             </div>
 
             <div className="bottom__side">

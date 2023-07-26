@@ -1,0 +1,65 @@
+@import "../../../utilities/varaibles.scss";
+
+.bi-gear-fill {
+  position: fixed;
+  z-index: 999;
+  color: $text-color-1;
+  font-size: 30px;
+  top: 25px;
+  left: 30px;
+  cursor: pointer;
+  margin-left: 80%;
+  font-size: 25px;
+}
+
+.RightNav {
+  background-color: $master-color;
+  height: 100vh;
+  width: 50%;
+  z-index: 4;
+  position: fixed;
+  left: 210px;
+
+  transition: 0.7s;
+}
+
+.RightNav-toggle {
+  left: 420px;
+  position: fixed;
+
+  background-color: $master-color;
+  height: 100vh;
+  width: 50%;
+  z-index: 4;
+  position: fixed;
+
+  transition: 0.7s;
+}
+
+.RightNav > h3 {
+  position: relative;
+  top: 15%;
+  margin-bottom: 40px;
+  color: $text-color-1;
+  font-size: 16px;
+}
+
+.nav__items {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10px;
+}
+
+.nav__items-toggle {
+  display: none;
+}
+
+.link_itens {
+  color: $text-color-1;
+  text-decoration: none;
+}
+
+.bi-gear-fill:active {
+  transition: 0.7s;
+  transform: rotate(100deg);
+}

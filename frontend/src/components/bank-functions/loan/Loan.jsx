@@ -20,7 +20,7 @@ const Loan = () => {
             </div>
             <hr className="hr" />
             <div className="loan__component">
-                <img src={require("../../images/loan.png")} alt="loan" className="loan__img" />
+                <img src="./images/loan.png" alt="loan" className="loan__img" />
                 <h1 className="loan__h1">Choose your loan type</h1>
                 <div className="all__loans">
                     <div className="loan__type">

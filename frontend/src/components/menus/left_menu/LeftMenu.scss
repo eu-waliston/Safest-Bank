@@ -1,0 +1,58 @@
+@import "../../../utilities/varaibles.scss";
+
+.style {
+  position: fixed;
+  z-index: 9999999999999;
+  color: $text-color-1;
+  font-size: 30px;
+  top: 20px;
+  left: 10px;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+
+.navbar {
+  background-color: $master-color;
+  height: 100vh;
+  width: 50%;
+  position: fixed;
+  z-index: 4;
+  transition: 0.6s;
+}
+
+.navbar-toggle {
+  background-color: $master-color;
+  height: 100vh;
+  width: 0;
+  z-index: 9999;
+  position: fixed;
+  transition: 0.6s;
+}
+
+.navbar_itens {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 20%;
+  top: 15%;
+  color: $text-color-1;
+  transition: all 1s;
+}
+
+.navbar_itens-toggle {
+  visibility: hidden;
+  color: transparent;
+}
+
+.navbar_itens {
+  h3 {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+}
+
+.nav__item {
+  color: $text-color-1;
+  margin-bottom: 55px;
+  margin-right: 10px;
+}

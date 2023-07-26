@@ -18,7 +18,7 @@ const AddCard = () => {
                 </div>
 
                 <div className="middle__info__new">
-                    <img src={require("../../../images/card.png")} alt="credit-card" className="credit-card__new" />
+                    <img src="./images/card.png" alt="credit-card" className="credit-card__new" />
 
                     <div className="form__container">
                         <label>your name</label>
