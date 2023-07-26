@@ -19,7 +19,7 @@ Com o Safest Bank, a era das longas filas e deslocamentos até a agência chegou
     - Scss
     - React Router Dom
     - React Icons 
-    - Css
+    - Sass
     - Styled Componets
     - Font Aweasome
 ### Backend 
